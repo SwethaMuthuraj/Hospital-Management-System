@@ -1,0 +1,16 @@
+# Local secrets and configuration
+.env
+.env.*
+!.env.example
+
+# Dependencies and temporary files
+vendor/
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+
+# Local database exports and backups
+*.sql
+*.sql.zip
+*.bak
